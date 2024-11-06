@@ -12,11 +12,23 @@
 
 h1 {
   font-size: 24px;
+  font-family: Open Sans Condensed;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 39.6px;
+  text-align: center;
+
 }
 
 p {
   font-size: 16px;
   text-align: center;
+  font-family: Open Sans Condensed;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 17.6px;
+  text-align: center;
+
 }
 
 .rating {
@@ -24,6 +36,7 @@ p {
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   margin: 20px 0;
+
 }
 
 .rating-option input[type="radio"] {
